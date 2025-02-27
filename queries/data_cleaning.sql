@@ -1,7 +1,7 @@
-/*   Data cleaning  */
+/*  DATA CLEANING  */
 
 
---checking for duplicate records
+--Checking for Duplicate Records
 
 SELECT date, datetime, cash_type, card, money, 
 	coffee_name, COUNT(*) AS duplicate_count
@@ -11,13 +11,13 @@ GROUP BY date, datetime, cash_type, card, money,
 HAVING COUNT(*) >1;
 
 
---checking for inconsistent coffee name entries
+--Checking for Inconsistent Coffee-Name Entries
 
 SELECT DISTINCT coffee_name
 FROM coffee_sales;
 
 
--- checking for null Values
+-- Checking for Null Values
 
 SELECT
 	COUNT(CASE WHEN date IS NULL THEN 1 END) AS date_nulls,
