@@ -46,23 +46,23 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 ### Methodology
 **1.  Data Cleaning (SQL)**
 
-✅Checked for **duplicate transactions** (None found).
+⚪Checked for **duplicate transactions** (None found).
 
-✅Identified and handled **NULL value** (Present only in card column and was retained for anonymous purchases).
+⚪Identified and handled **NULL value** (Present only in card column and was retained for anonymous purchases).
 
-✅Ensured **consistent coffee names**.
+⚪Ensured **consistent coffee names**.
 
 **2.   Sales Analyses (SQL & Excel)**
 
-**✅Peak Sales Hour: 10 AM - 11AM**.
+**⚪Peak Sales Hour: 10 AM - 11AM**.
 
-**✅Top Selling Coffees**:
+**⚪Top Selling Coffees**:
 -  ☕ **Latte** - Highest revenue generator ($23,610).
 -  ☕ **Americano with Milk** - Second best-selling coffee ($20,640).
  
-✅**96% of revenue comes from card payments -** Indicating a strong preference for cashless transactions.  
+⚪**96% of revenue comes from card payments -** Indicating a strong preference for cashless transactions.  
 
-✅**Customer Purchase Frequency: Top 5 Loyal Customers**
+⚪**Customer Purchase Frequency: Top 5 Loyal Customers**
 
 
 ### 📊Key Findings & Visuals
@@ -79,7 +79,30 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 
 📌**Business Impact**: ***Stock level should priotize peak office hours, with potential promotions in off-peak periods.***
 
-📷**Visualisation**:
+📷**Visualization**:
+
+#### 🗓️Weekend vs Weekday Sales Performance
+✅**Higher Weekday Sales**: **$65,502** - Driven by workplace coffee consumption during office hours (8 AM - 6 PM).
+
+✅**Lower Weekend Sales**: **$24,994** - Fewer transactions due to reduced workplace foot foot traffic.
+
+✅**Peak Consumption Times:Morning (8 AM - 11 AM) and Afternoon (2 PM - 4 PM) office breaks**.
+
+✅**Post-Work Hours (6 PM - 10 PM)**: **Decline in sales**, reinforcing the workplace-driven demand.
+
+📌**Business Impact**:
+- ***Stock should be optimized for weekdays**, with enough supply for office workers*.
+- ***Weekend discount strategies** could boosts sales outside workplace hours*.
+- ***Exploring vending locations near residential areas** may help balance weekend performance*.
+
+📷**Visualization**:
+
+
+
+
+
+
+
 
 
 
