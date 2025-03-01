@@ -32,7 +32,7 @@ The goal is to provide **data-driven strategies for optimizing stock, pricing an
 
 
 ### 📁Dataset Overview
-This dataset is sourced from **kaggle**, which captures **2,838 customer transactions from a vending machine** and provides insights into **purchase behaviour, product preferences, and revenue generation**.
+This dataset is sourced from **kaggle**, which captures **2,838 customer transactions from a vending machine** and provides insights into **sales trend, purchase behaviour, product preferences, and revenue generation**.
 |Column Name|Description|Data Type|
 |-----------|-----------|---------|
 |date|Transaction date|Date|
@@ -54,41 +54,40 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 
 **2.   Sales Analyses (SQL & Excel)**
 
-**⚪Peak Sales Hour: 10 AM - 11AM**.
+**⚪Sales performance overview**.
 
-**⚪Top Selling Coffees**:
--  ☕ **Latte** - Highest revenue generator ($23,610).
--  ☕ **Americano with Milk** - Second best-selling coffee ($20,640).
- 
-⚪**96% of revenue comes from card payments -** Indicating a strong preference for cashless transactions.  
+**⚪Time series analysis of sales trends**.
 
-⚪**Customer Purchase Frequency: Top 5 Loyal Customers**
+**⚪Top Selling Coffee types**.
+
+**⚪Customer purchase behavior**.
+
+**⚪Forecasting next months sales**.
 
 
 ### 📊Key Findings & Visuals
+
 #### 🕐Time-Based Sales Trends
 
-✅**Peak Sales Hour**:**10 AM - 11 AM** -Highest transaction volume and revenue.
+✅**Busiest Sales Days**: Tuesdays have the highest sales volume, followed by Mondays.
+
+✅**Lowest Sales Day**: Sundays have the lowest number of transactions.
+
+✅**Peak Sales Hours by time of day**:
+- **Morning (10 AM & 11 AM)** -  High sales due to office coffee breaks and employees purchasing coffee before starting work.
+- **Afternoon (4 PM)** - A secondary peak, likely due to an afternoon energy boost for workers finishing tasks before the end of the day.
+- **Evening (7 PM & 9 PM)** - Another notable demand surge, potentially linked to students, night-shift workers, or late-night relaxation routines.
 
 ✅**Slowest Hours**: **7 AM & 10 PM** - Low customer traffik due to opening and closing times.
-
-✅**Sales Distribution By Time of Day**:
--   **Morning (8 AM - 11 AM)** - High sales due to office coffee breaks.
--   **Afternoon (2 PM - 4 PM)** - Secondary peak from workplace consumption.
--   **Evening (6 PM - 10 PM)** - Decline in demand, aligning with post-office hours.
 
 📌**Business Impact**: ***Stock level should priotize peak office hours, with potential promotions in off-peak periods.***
 
 📷**Visualization**:
 
 #### 🗓️Weekend vs Weekday Sales Performance
-✅**Higher Weekday Sales**: **$65,502** - Driven by workplace coffee consumption during office hours (8 AM - 6 PM).
-
-✅**Lower Weekend Sales**: **$24,994** - Fewer transactions due to reduced workplace foot foot traffic.
-
-✅**Peak Consumption Times:Morning (8 AM - 11 AM) and Afternoon (2 PM - 4 PM) office breaks**.
-
-✅**Post-Work Hours (6 PM - 10 PM)**: **Decline in sales**, reinforcing the workplace-driven demand.
+✅ Sales are generally higher on weekdays than weekends due to workplace coffee consumption.
+- **Weekday Sales**: **$65,502**.
+- **Weekend Sales**: **$24,994**
 
 📌**Business Impact**:
 - ***Stock should be optimized for weekdays**, with enough supply for office workers*.
@@ -96,6 +95,22 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 - ***Exploring vending locations near residential areas** may help balance weekend performance*.
 
 📷**Visualization**:
+
+#### Best-Selling Coffee Types
+**Top Revenue-Generating Coffee**:
+- ☕Latte - Highest revenue ($23,610).
+- ☕Americano with milk - Second-highest revenue ($20,640).
+
+**Least Popular**:
+- ☕Espresso - Lower sales suggesting customer preference for milk-based coffees.
+
+📌**Business Impact**: ***Focus on promoting best-selling drinks while optimizing stock for low-demand products.
+
+📷**Visualization**:
+
+
+
+
 
 
 
