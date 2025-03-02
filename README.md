@@ -128,11 +128,26 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 
 #### Forecasting Next Month’s Sales
 
+The forecast was generated using Excel’s built-in forecasting tool, which applies exponential smoothing to predict future sales trends based on historical data.
+
 **⚪Historical Trends**: Sales have fluctuated between **6,720 - 9,063** per month.
 
-**⚪Forecasting Model (ARIMA/Prophet)**: Predictions for upcoming months suggest sales stabilizing within this range.
+**⚪Projected Sales for the Next Three Months**:
+-  January: 10,403.86 (Confidence Interval: 6,921.66 - 13,886.06)
+-  February: 10,739.28 (Confidence Interval: 7,257.07 - 14,221.50)
+-  March: 11,074.71 (Confidence Interval: 7,592.47 - 14,556.95)
 
-**⚪Confidence Interval**: Future sales projections have a variation depending on external factors such as holidays or promotions.
+Key Takeaways:
+
+Sales are expected to follow historical patterns, with peak sales during weekdays and slight declines on weekends.
+
+The forecast suggests a steady upward trend, indicating growing demand.
+
+Monitoring actual sales vs. forecasted sales will help refine future predictions.
+
+Promotional campaigns could be strategically placed during predicted slow periods to maintain revenue consistency.
+**⚪Historical Trends**: Sales have fluctuated between **6,720 - 9,063** per month.
+
 
 
 
