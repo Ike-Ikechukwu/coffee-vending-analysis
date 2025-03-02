@@ -69,27 +69,27 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 
 #### 🕐Time-Based Sales Trends
 
-✅**Busiest Sales Days**: Tuesdays have the highest sales volume, followed by Mondays.
+⚪**Busiest Sales Days**: Tuesdays have the highest sales volume, followed by Mondays.
 
-✅**Lowest Sales Day**: Sundays have the lowest number of transactions.
+⚪**Lowest Sales Day**: Sundays have the lowest number of transactions.
 
-✅**Peak Sales Hours by time of day**:
+⚪**Peak Sales Hours by time of day**:
 - **Morning (10 AM & 11 AM)** -  High sales due to office coffee breaks and employees purchasing coffee before starting work.
 - **Afternoon (4 PM)** - A secondary peak, likely due to an afternoon energy boost for workers finishing tasks before the end of the day.
 - **Evening (7 PM & 9 PM)** - Another notable demand surge, potentially linked to students, night-shift workers, or late-night relaxation routines.
 
-✅**Slowest Hours**: **7 AM & 10 PM** - Low customer traffik due to opening and closing times.
+⚪**Slowest Hours**: **7 AM & 10 PM** - Low customer traffik due to opening and closing times.
 
-📌**Business Impact**: ***Stock level should priotize peak office hours, with potential promotions in off-peak periods.***
+📌**Business insight**: ***Stock level should priotize peak office hours, with potential promotions in off-peak periods.***
 
 📷**Visualization**:
 
 #### 🗓️Weekend vs Weekday Sales Performance
-✅ Sales are generally higher on weekdays than weekends due to workplace coffee consumption.
+Sales are generally higher on weekdays than weekends due to workplace coffee consumption.
 - **Weekday Sales**: **$65,502**.
 - **Weekend Sales**: **$24,994**
 
-📌**Business Impact**:
+📌**Business insight**:
 - ***Stock should be optimized for weekdays**, with enough supply for office workers*.
 - ***Weekend discount strategies** could boosts sales outside workplace hours*.
 - ***Exploring vending locations near residential areas** may help balance weekend performance*.
@@ -97,14 +97,14 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 📷**Visualization**:
 
 #### Best-Selling Coffee Types
-**Top Revenue-Generating Coffee**:
+⚪**Top Revenue-Generating Coffee**:
 - ☕Latte - Highest revenue ($23,610).
 - ☕Americano with milk - Second-highest revenue ($20,640).
 
-**Least Popular**:
+⚪**Least Popular**:
 - ☕Espresso - Lower sales suggesting customer preference for milk-based coffees.
 
-📌**Business Impact**: ***Focus on promoting best-selling drinks while optimizing stock for low-demand products.
+📌**Business insight**: ***Focus on promoting best-selling drinks while optimizing stock for low-demand products.
 
 📷**Visualization**:
 
@@ -120,7 +120,7 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 ⚪**Payment Preference**: Majority of transactions are card-based.
 
 📌**Business Insight**:
--  ***Enhancing Customer Loyalty**: Implementing a loyalty program (e.g., "**Buy 10, Get 1 Free**") could increase repeat purchases and strengthen customer retention.*
+-  ***Enhancing Customer Loyalty**: Implementing a loyalty program (e.g., "**Buy 5, Get 1 Free**") could increase repeat purchases and strengthen customer retention.*
 -  ***Personalized Promotions**: Tailored discounts and targeted marketing campaigns can boost engagement and revenue.*
 -  ***Optimizing Payment Experience**: Ensuring seamless card transactions can prevent lost sales due to payment failures and improve customer satisfaction.*
 
@@ -137,25 +137,49 @@ The forecast was generated using Excel’s built-in forecasting tool, which appl
 -  February: 10,739.28 (Confidence Interval: 7,257.07 - 14,221.50)
 -  March: 11,074.71 (Confidence Interval: 7,592.47 - 14,556.95)
 
-Key Takeaways:
-
-Sales are expected to follow historical patterns, with peak sales during weekdays and slight declines on weekends.
-
-The forecast suggests a steady upward trend, indicating growing demand.
-
-Monitoring actual sales vs. forecasted sales will help refine future predictions.
-
-Promotional campaigns could be strategically placed during predicted slow periods to maintain revenue consistency.
-**⚪Historical Trends**: Sales have fluctuated between **6,720 - 9,063** per month.
+📌**Key Takeaways**:
+-  Sales are expected to follow historical patterns, with peak sales during weekdays and slight declines on weekends.
+-  The forecast suggests a steady upward trend, indicating growing demand.
+-  Monitoring actual sales vs. forecasted sales will help refine future predictions.
+-  Promotional campaigns could be strategically placed during predicted slow periods to maintain revenue consistency.
 
 
+### Recommendations
 
+#### 1. Stock Optimization & Inventory Planning
+✔ Prioritize stocking for weekdays.
 
+✔ Reduce stock of low-demand items (e.g., Espresso) to prevent wastage.
 
+✔ Monitor sales trends monthly to adjust stock dynamically.
 
+#### 2. Product Strategy & Promotions
+✔ Focus marketing on best-selling coffee types (Latte & Americano).
 
+✔ Introduce combo offers (e.g., buy 5, get 1 free) to increase volume sales.
 
+✔ Offer loyalty rewards to top 5 repeat customers to enhance retention.
 
+#### 3. Product Strategy & Promotions
+✔ Focus marketing on best-selling coffee types (Latte & Americano).
+
+✔ Introduce combo offers (e.g., buy 5, get 1 free) to increase volume sales.
+
+✔ Offer loyalty rewards to top 5 repeat customers to enhance retention.
+
+#### 4. Weekend Sales Boosting Strategy
+✔ Offer discounted coffee prices on weekends to attract non-office customers.
+
+✔ Introduce a “Happy Hour” discount (e.g., 6 PM - 8 PM) to increase evening sales.
+
+✔ Explore alternative vending locations near residential areas for weekend foot traffic.
+
+#### 5. Data-Driven Decision Making & Monitoring
+✔ Track customer purchase frequency to refine loyalty incentives.
+
+✔ Compare actual vs. forecasted sales for better inventory adjustments.
+
+✔ Regularly analyze weekday vs. weekend performance to optimize operations.
 
 
 
