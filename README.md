@@ -108,6 +108,31 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 
 📷**Visualization**:
 
+#### Customer Purchase Behavior
+
+⚪**Average Spending Per Customer**: Customers typically spend around **31.89** per purchase.
+
+⚪**Repeat Customers**: Many anonymized customer IDs indicate multiple transactions, suggesting customer retention.
+-  **Top 5 Loyal Customers**: The five most frequent customers account for a significant percentage of repeat purchases.
+-  Each of these customers made at least **15 purchases**, showcasing strong loyalty.
+-  High-frequency buyers prefer **Latte and Americano with Milk**, aligning with overall best-selling trends.
+
+⚪**Payment Preference**: Majority of transactions are card-based.
+
+📌**Business Insight**:
+-  ***Enhancing Customer Loyalty**: Implementing a loyalty program (e.g., "**Buy 10, Get 1 Free**") could increase repeat purchases and strengthen customer retention.*
+-  ***Personalized Promotions**: Tailored discounts and targeted marketing campaigns can boost engagement and revenue.*
+-  ***Optimizing Payment Experience**: Ensuring seamless card transactions can prevent lost sales due to payment failures and improve customer satisfaction.*
+
+📷**Visualization**:
+
+#### Forecasting Next Month’s Sales
+
+**⚪Historical Trends**: Sales have fluctuated between **6,720 - 9,063** per month.
+
+**⚪Forecasting Model (ARIMA/Prophet)**: Predictions for upcoming months suggest sales stabilizing within this range.
+
+**⚪Confidence Interval**: Future sales projections have a variation depending on external factors such as holidays or promotions.
 
 
 
