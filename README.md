@@ -83,7 +83,9 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 📌**Business insight**: ***Stock level should priotize peak office hours, with potential promotions in off-peak periods.***
 
 📷**Visualization**:
+
 ![Hourly Sales Trends](images/hourly_sales.png)
+
 ![Daily Sales Trends](images/Daily_sales_trend.png) 
 
 #### 🗓️Weekend vs Weekday Sales Performance
