@@ -86,7 +86,11 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 
 ![Hourly Sales Trends](images/hourly_sales.png)
 
-![Daily Sales Trends](images/Daily_sales_trend.png) 
+> **Figure 1:** Hourly revenue and sales volume
+
+![Daily Sales Trends](images/daily_sales_trend.png) 
+
+> **Figure 2:** Daily coffee sales trends.
 
 #### 🗓️Weekend vs Weekday Sales Performance
 Sales are generally higher on weekdays than weekends due to workplace coffee consumption.
@@ -99,7 +103,10 @@ Sales are generally higher on weekdays than weekends due to workplace coffee con
 - ***Exploring vending locations near residential areas** may help balance weekend performance*.
 
 📷**Visualization**:
+
 ![Weekend vs Weekday Revenue](images/weektype_sales.png) 
+
+> **Figure 3:** Weekend vs Weekday Revenue.
 
 #### Best-Selling Coffee Types
 ⚪**Top Revenue-Generating Coffee**:
@@ -112,7 +119,10 @@ Sales are generally higher on weekdays than weekends due to workplace coffee con
 📌**Business insight**: ***Focus on promoting best-selling drinks while optimizing stock for low-demand products.
 
 📷**Visualization**:
+
 ![Top selling coffees](images/Top_selling_coffees.png) 
+
+> **Figure 4:** Best-selling coffee types by revenue.
 
 #### Customer Purchase Behavior
 
@@ -131,8 +141,14 @@ Sales are generally higher on weekdays than weekends due to workplace coffee con
 -  ***Optimizing Payment Experience**: Ensuring seamless card transactions can prevent lost sales due to payment failures and improve customer satisfaction.*
 
 📷**Visualization**:
+
 ![Loyal Customers](images/loyal_customers.png)
+
+> **Figure 5:** Top 5 Loyal customers(purchase frequency).
+
 ![Payment Preferences](images/payment_method.png)
+
+> **Figure 6:** Payment Preferences.
 
 #### Forecasting Next Month’s Sales
 
@@ -152,7 +168,10 @@ The forecast was generated using Excel’s built-in forecasting tool, which appl
 -  Promotional campaigns could be strategically placed during predicted slow periods to maintain revenue consistency.
 
 📷**Visualization**: 
+
 ![Sales Forecast](images/sales_forcast.png) 
+
+> **Figure 1:** Projected monthly revenue trend
 
 
 ### Recommendations
