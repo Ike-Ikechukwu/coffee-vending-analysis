@@ -83,6 +83,8 @@ This dataset is sourced from **kaggle**, which captures **2,838 customer transac
 📌**Business insight**: ***Stock level should priotize peak office hours, with potential promotions in off-peak periods.***
 
 📷**Visualization**:
+![Hourly Sales Trends](images/hourly_sales.png)
+![Daily Sales Trends](images/Daily_sales_trend.png) 
 
 #### 🗓️Weekend vs Weekday Sales Performance
 Sales are generally higher on weekdays than weekends due to workplace coffee consumption.
@@ -95,6 +97,7 @@ Sales are generally higher on weekdays than weekends due to workplace coffee con
 - ***Exploring vending locations near residential areas** may help balance weekend performance*.
 
 📷**Visualization**:
+![Weekend vs Weekday Revenue](images/weektype_sales.png) 
 
 #### Best-Selling Coffee Types
 ⚪**Top Revenue-Generating Coffee**:
@@ -107,6 +110,7 @@ Sales are generally higher on weekdays than weekends due to workplace coffee con
 📌**Business insight**: ***Focus on promoting best-selling drinks while optimizing stock for low-demand products.
 
 📷**Visualization**:
+![Top selling coffees](images/Top_selling_coffees.png) 
 
 #### Customer Purchase Behavior
 
@@ -125,6 +129,8 @@ Sales are generally higher on weekdays than weekends due to workplace coffee con
 -  ***Optimizing Payment Experience**: Ensuring seamless card transactions can prevent lost sales due to payment failures and improve customer satisfaction.*
 
 📷**Visualization**:
+![Loyal Customers](images/loyal_customers.png)
+![Payment Preferences](images/payment_method.png)
 
 #### Forecasting Next Month’s Sales
 
@@ -142,6 +148,9 @@ The forecast was generated using Excel’s built-in forecasting tool, which appl
 -  The forecast suggests a steady upward trend, indicating growing demand.
 -  Monitoring actual sales vs. forecasted sales will help refine future predictions.
 -  Promotional campaigns could be strategically placed during predicted slow periods to maintain revenue consistency.
+
+📷**Visualization**: 
+![Sales Forecast](images/sales_forcast.png) 
 
 
 ### Recommendations
