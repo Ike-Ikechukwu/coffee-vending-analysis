@@ -1,4 +1,4 @@
---	SALES TREND ANALYSIS	--
+--	SALES TREND ANALYSIS USING MSSQL	--
 
 
 --Daily Trend for Total Orders
