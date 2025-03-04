@@ -1,4 +1,4 @@
-/*  DATA CLEANING  */
+/*  DATA CLEANING USING MSSQL*/
 
 
 --Checking for Duplicate Records
