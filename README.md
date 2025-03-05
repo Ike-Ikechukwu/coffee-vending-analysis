@@ -171,7 +171,7 @@ The forecast was generated using Excel’s built-in forecasting tool, which appl
 
 ![Sales Forecast](images/sales_forcast.png) 
 
-> **Figure 1:** Projected monthly revenue trend
+> **Figure 7:** Projected monthly revenue trend
 
 
 ### Recommendations
