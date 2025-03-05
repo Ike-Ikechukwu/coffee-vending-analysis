@@ -154,7 +154,7 @@ Sales are generally higher on weekdays than weekends due to workplace coffee con
 
 The forecast was generated using Excel’s built-in forecasting tool, which applies exponential smoothing to predict future sales trends based on historical data.
 
-**⚪Historical Trends**: Sales have fluctuated between **6,720 - 9,063** per month.
+**⚪Historical Trends**: Sales have fluctuated between **6,720 - 13,891** per month.
 
 **⚪Projected Sales for the Next Three Months**:
 -  January: 10,403.86 (Confidence Interval: 6,921.66 - 13,886.06)
